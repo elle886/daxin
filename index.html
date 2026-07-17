@@ -129,7 +129,7 @@
         }
 
         /* ==========================================
-           2. 導覽列與 LOGO 設計
+           2. 導覽列與 LOGO 設計 (New Logo Style)
            ========================================== */
         header {
             background-color: rgba(255, 255, 255, 0.95);
@@ -448,7 +448,7 @@
         }
 
         /* ==========================================
-           6. 產品與服務 (Services)
+           6. 產品與服務 (Services - Expanded) 
            ========================================== */
         .services {
             padding: 100px 0;
@@ -773,7 +773,7 @@
             gap: 20px;
         }
 
-        /* 頁尾反白 Logo 樣式 */
+        /* 頁尾反白 Logo 樣式 (Adapted for Footer) */
         .footer-logo {
             display: flex;
             align-items: center;
@@ -1081,6 +1081,28 @@
                         <a href="#contact" class="service-link">了解詳情 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="9 18 15 12 9 6"></polyline></svg></a>
                     </div>
                 </div>
+                <!-- 窗型 10 -->
+                <div class="service-card">
+                    <div class="service-img">
+                        <img src="https://images.unsplash.com/photo-1534196511436-921a4e99f297?auto=format&fit=crop&w=600&q=80" alt="各式紗門與紗窗">
+                    </div>
+                    <div class="service-info">
+                        <h3>各式紗門與紗窗</h3>
+                        <p>提供防蚊紗窗、隱形紗門、折疊紗門等多種款式，具備防蟲、透氣與易拆洗特性，守護居家衛生與全天候通風。</p>
+                        <a href="#contact" class="service-link">了解詳情 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="9 18 15 12 9 6"></polyline></svg></a>
+                    </div>
+                </div>
+                <!-- 窗型 11 -->
+                <div class="service-card">
+                    <div class="service-img">
+                        <img src="https://images.unsplash.com/photo-1622372736597-8798b5840d02?auto=format&fit=crop&w=600&q=80" alt="專屬鋁製品客製">
+                    </div>
+                    <div class="service-info">
+                        <h3>專屬鋁製品客製</h3>
+                        <p>除了各式門窗，我們亦提供專業的鋁製格柵、鋁製圍牆、鋁門板等客製化金屬工程，滿足您全方位的空間設計需求。</p>
+                        <a href="#contact" class="service-link">了解詳情 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="9 18 15 12 9 6"></polyline></svg></a>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -1115,7 +1137,7 @@
         <div class="contact-container">
             <div class="section-header">
                 <h2>預約免費到府丈量</h2>
-                <p>填寫下方表單或直接掃碼加 LINE，我們將有專業技師與您親自聯絡。</p>
+                <p>填寫下方表單或透過官方 LINE 聯絡，我們將有專業技師與您親自接洽。</p>
             </div>
             
             <div class="contact-grid">
@@ -1128,7 +1150,7 @@
                             </div>
                             <div class="contact-item-text">
                                 <h4>服務專線</h4>
-                                <p>0912-345-678</p>
+                                <p>0955-827-683</p>
                             </div>
                         </div>
                         <div class="contact-item">
@@ -1136,8 +1158,8 @@
                                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
                             </div>
                             <div class="contact-item-text">
-                                <h4>展示中心與廠辦</h4>
-                                <p>新北市樹林區工業路 88 號</p>
+                                <h4>公司地址</h4>
+                                <p>新北市土城區延平街69巷6之22號</p>
                             </div>
                         </div>
                         <div class="contact-item">
@@ -1153,17 +1175,23 @@
 
                     <div class="qr-section">
                         <div class="qr-placeholder">
-                            <div style="background-color: #25D366; color: white; width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; font-size: 0.8rem; font-weight: bold; text-align: center; border-radius: 4px;">LINE QR</div>
+                            <div style="background-color: #e4e4e7; color: #a1a1aa; width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; font-size: 0.8rem; font-weight: bold; text-align: center; border-radius: 4px;">COMING SOON</div>
                         </div>
                         <div>
                             <h4 style="font-weight: 700; margin-bottom: 5px;">官方 LINE 諮詢</h4>
-                            <p style="color: var(--text-muted); font-size: 0.85rem; line-height: 1.4;">掃描 QR Code 或搜尋 ID <strong style="color: var(--accent-color);">@daxing_al</strong>，傳送施工現場照片，即可為您線上快速概算初估！</p>
+                            <p style="color: var(--text-muted); font-size: 0.85rem; line-height: 1.4;">即將推出，敬請期待。</p>
                         </div>
                     </div>
                 </div>
 
                 <div class="contact-form">
-                    <form action="#" method="POST">
+                    <!-- 使用 formsubmit.co 將表單內容寄送至指定信箱 -->
+                    <form action="https://formsubmit.co/star.elle066@gmail.com" method="POST">
+                        <!-- 隱藏欄位：設定郵件標題 -->
+                        <input type="hidden" name="_subject" value="大新鋁門窗 - 收到新的線上預約丈量表單！">
+                        <!-- 隱藏欄位：防止機器人垃圾信 (預設開啟驗證) -->
+                        <input type="hidden" name="_captcha" value="false">
+
                         <div class="form-row">
                             <div class="form-group">
                                 <label for="name">聯絡人姓名 *</label>
@@ -1171,18 +1199,18 @@
                             </div>
                             <div class="form-group">
                                 <label for="phone">聯絡電話 *</label>
-                                <input type="tel" id="phone" name="phone" class="form-control" placeholder="例如：0912-345-678" required>
+                                <input type="tel" id="phone" name="phone" class="form-control" placeholder="例如：0955-827-683" required>
                             </div>
                         </div>
                         <div class="form-row">
                             <div class="form-group">
                                 <label for="location">施作地區 *</label>
-                                <input type="text" id="location" name="location" class="form-control" placeholder="例如：新北市板橋區" required>
+                                <input type="text" id="location" name="location" class="form-control" placeholder="例如：新北市土城區" required>
                             </div>
                             <div class="form-group">
-                                <label for="service-type">主要需求窗型 *</label>
+                                <label for="service-type">主要需求項目 *</label>
                                 <select id="service-type" name="service-type" class="form-control" required>
-                                    <option value="" disabled selected>請選擇您感興趣的窗型</option>
+                                    <option value="" disabled selected>請選擇您的主要需求</option>
                                     <option value="隔音橫拉窗">隔音氣密橫拉窗</option>
                                     <option value="防颱推射窗">防颱推射窗(外推窗)</option>
                                     <option value="景觀固定窗">大視野景觀固定窗</option>
@@ -1191,8 +1219,11 @@
                                     <option value="防盜格子窗">美型防盜格子窗</option>
                                     <option value="通風百葉窗">活動/固定百葉窗</option>
                                     <option value="落地門窗">落地大門窗</option>
+                                    <option value="紗門紗窗">各式紗門/紗窗</option>
+                                    <option value="鋁製品">鋁製品客製</option>
                                     <option value="老屋換窗">老屋免拆框換新窗</option>
                                     <option value="綜合評估">多種窗型綜合評估</option>
+                                    <option value="其他項目">其他項目</option>
                                 </select>
                             </div>
                         </div>
